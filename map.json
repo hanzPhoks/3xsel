@@ -67,7 +67,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/reeunion1.json"
+                 "value":".\/reeunion.json"
                 }],
          "type":"tilelayer",
          "visible":true,

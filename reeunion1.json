@@ -49,7 +49,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/map.json"
+                 "value":".\/reeunion.json"
                 }],
          "type":"tilelayer",
          "visible":true,
