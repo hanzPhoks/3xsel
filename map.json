@@ -67,7 +67,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/reeunion.json"
+                 "value":".\/reeunion.json#right"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -179,9 +179,9 @@
         {
          "columns":20,
          "firstgid":1,
-         "image":"RPG Nature Tileset-orig.png",
+         "image":"RPG Nature Tileset.png",
          "imageheight":288,
-         "imagewidth":641,
+         "imagewidth":640,
          "margin":0,
          "name":"RPG Nature Tileset",
          "spacing":0,
