@@ -103,7 +103,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/map.json"
+                 "value":".\/map.json#left"
                 }],
          "type":"tilelayer",
          "visible":true,
