@@ -1868,6 +1868,19 @@
                         }]
                 }],
          "tilewidth":32
+        }, 
+        {
+         "columns":20,
+         "firstgid":769,
+         "image":"logos.png",
+         "imageheight":320,
+         "imagewidth":640,
+         "margin":0,
+         "name":"logos",
+         "spacing":0,
+         "tilecount":200,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
