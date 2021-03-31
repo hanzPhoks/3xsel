@@ -1,0 +1,2 @@
+#regle A
+rules.tmx

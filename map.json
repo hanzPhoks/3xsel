@@ -1,11 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "target":"."
-        }
-    },
  "height":60,
  "infinite":false,
  "layers":[
@@ -20,6 +13,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/www.youtube.com\/embed\/live_stream?channel=UCDfH0w4cSDSfy3HOXBq5ekQ"
+                }, 
+                {
+                 "name":"silent",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -344,11 +342,11 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":35,
+ "nextlayerid":36,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.5.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -360,35 +358,6 @@
          "margin":0,
          "name":"RPG Nature Tileset",
          "spacing":0,
-         "terrains":[
-                {
-                 "name":"Nouveau Terrain",
-                 "tile":42
-                }, 
-                {
-                 "name":"Nouveau Terrain",
-                 "tile":151
-                }, 
-                {
-                 "name":"Nouveau Terrain",
-                 "tile":138
-                }, 
-                {
-                 "name":"Nouveau Terrain",
-                 "tile":43
-                }, 
-                {
-                 "name":"Nouveau Terrain",
-                 "tile":87
-                }, 
-                {
-                 "name":"Nouveau Terrain",
-                 "tile":92
-                }, 
-                {
-                 "name":"Nouveau Terrain",
-                 "tile":83
-                }],
          "tilecount":180,
          "tileheight":32,
          "tiles":[
@@ -790,8 +759,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }],
-                 "terrain":[5, 5, 5, 5]
+                        }]
                 }, 
                 {
                  "id":42,
@@ -800,8 +768,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[0, 0, 0, 0]
+                        }]
                 }, 
                 {
                  "id":43,
@@ -810,8 +777,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[3, 3, 3, 3]
+                        }]
                 }, 
                 {
                  "id":44,
@@ -964,8 +930,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[0, 0, 0, 6]
+                        }]
                 }, 
                 {
                  "id":61,
@@ -974,8 +939,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[0, 0, 6, 6]
+                        }]
                 }, 
                 {
                  "id":62,
@@ -984,8 +948,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[0, 0, 6, 0]
+                        }]
                 }, 
                 {
                  "id":63,
@@ -994,8 +957,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[6, 6, 6, 0]
+                        }]
                 }, 
                 {
                  "id":64,
@@ -1004,8 +966,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[6, 6, 0, 6]
+                        }]
                 }, 
                 {
                  "id":65,
@@ -1047,8 +1008,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[4, 4, 4, -1]
+                        }]
                 }, 
                 {
                  "id":66,
@@ -1079,8 +1039,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[4, 4, -1, -1]
+                        }]
                 }, 
                 {
                  "id":67,
@@ -1122,8 +1081,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[4, 4, -1, 4]
+                        }]
                 }, 
                 {
                  "id":68,
@@ -1154,8 +1112,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, -1, 4]
+                        }]
                 }, 
                 {
                  "id":69,
@@ -1186,8 +1143,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, 4, -1]
+                        }]
                 }, 
                 {
                  "id":70,
@@ -1196,8 +1152,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[5, 5, 5, -1]
+                        }]
                 }, 
                 {
                  "id":71,
@@ -1206,8 +1161,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[5, 5, -1, -1]
+                        }]
                 }, 
                 {
                  "id":72,
@@ -1216,8 +1170,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[5, 5, -1, 5]
+                        }]
                 }, 
                 {
                  "id":73,
@@ -1226,8 +1179,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, -1, 5]
+                        }]
                 }, 
                 {
                  "id":74,
@@ -1236,8 +1188,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, 5, -1]
+                        }]
                 }, 
                 {
                  "id":75,
@@ -1246,8 +1197,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[3, 3, 3, -1]
+                        }]
                 }, 
                 {
                  "id":76,
@@ -1256,8 +1206,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[3, 3, -1, -1]
+                        }]
                 }, 
                 {
                  "id":77,
@@ -1266,8 +1215,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[3, 3, -1, 3]
+                        }]
                 }, 
                 {
                  "id":78,
@@ -1276,8 +1224,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, -1, 3]
+                        }]
                 }, 
                 {
                  "id":79,
@@ -1286,8 +1233,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, 3, -1]
+                        }]
                 }, 
                 {
                  "id":80,
@@ -1296,8 +1242,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[0, 6, 0, 6]
+                        }]
                 }, 
                 {
                  "id":81,
@@ -1306,8 +1251,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[6, 6, 6, 6]
+                        }]
                 }, 
                 {
                  "id":82,
@@ -1316,8 +1260,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[6, 0, 6, 0]
+                        }]
                 }, 
                 {
                  "id":83,
@@ -1326,8 +1269,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[6, 0, 6, 6]
+                        }]
                 }, 
                 {
                  "id":84,
@@ -1336,8 +1278,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[0, 6, 6, 6]
+                        }]
                 }, 
                 {
                  "id":85,
@@ -1368,8 +1309,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[4, -1, 4, -1]
+                        }]
                 }, 
                 {
                  "id":86,
@@ -1409,8 +1349,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 4, -1, 4]
+                        }]
                 }, 
                 {
                  "id":88,
@@ -1441,8 +1380,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 4, -1, -1]
+                        }]
                 }, 
                 {
                  "id":89,
@@ -1473,8 +1411,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[4, -1, -1, -1]
+                        }]
                 }, 
                 {
                  "id":90,
@@ -1483,8 +1420,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[5, -1, 5, -1]
+                        }]
                 }, 
                 {
                  "id":91,
@@ -1502,8 +1438,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 5, -1, 5]
+                        }]
                 }, 
                 {
                  "id":93,
@@ -1512,8 +1447,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 5, -1, -1]
+                        }]
                 }, 
                 {
                  "id":94,
@@ -1522,8 +1456,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[5, -1, -1, -1]
+                        }]
                 }, 
                 {
                  "id":95,
@@ -1532,8 +1465,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[3, -1, 3, -1]
+                        }]
                 }, 
                 {
                  "id":96,
@@ -1551,8 +1483,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 3, -1, 3]
+                        }]
                 }, 
                 {
                  "id":98,
@@ -1561,8 +1492,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 3, -1, -1]
+                        }]
                 }, 
                 {
                  "id":99,
@@ -1571,8 +1501,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[3, -1, -1, -1]
+                        }]
                 }, 
                 {
                  "id":100,
@@ -1581,8 +1510,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[0, 6, 0, 0]
+                        }]
                 }, 
                 {
                  "id":101,
@@ -1591,8 +1519,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[6, 6, 0, 0]
+                        }]
                 }, 
                 {
                  "id":102,
@@ -1601,8 +1528,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[6, 0, 0, 0]
+                        }]
                 }, 
                 {
                  "id":103,
@@ -1611,8 +1537,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[6, 0, 0, 6]
+                        }]
                 }, 
                 {
                  "id":104,
@@ -1621,8 +1546,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[0, 6, 6, 0]
+                        }]
                 }, 
                 {
                  "id":105,
@@ -1664,8 +1588,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[4, -1, 4, 4]
+                        }]
                 }, 
                 {
                  "id":106,
@@ -1696,8 +1619,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, 4, 4]
+                        }]
                 }, 
                 {
                  "id":107,
@@ -1739,8 +1661,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 4, 4, 4]
+                        }]
                 }, 
                 {
                  "id":108,
@@ -1782,8 +1703,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 4, 4, -1]
+                        }]
                 }, 
                 {
                  "id":109,
@@ -1825,8 +1745,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[4, -1, -1, 4]
+                        }]
                 }, 
                 {
                  "id":110,
@@ -1835,8 +1754,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[5, -1, 5, 5]
+                        }]
                 }, 
                 {
                  "id":111,
@@ -1845,8 +1763,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, 5, 5]
+                        }]
                 }, 
                 {
                  "id":112,
@@ -1855,8 +1772,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 5, 5, 5]
+                        }]
                 }, 
                 {
                  "id":113,
@@ -1865,8 +1781,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 5, 5, -1]
+                        }]
                 }, 
                 {
                  "id":114,
@@ -1875,8 +1790,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[5, -1, -1, 5]
+                        }]
                 }, 
                 {
                  "id":115,
@@ -1885,8 +1799,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[3, -1, 3, 3]
+                        }]
                 }, 
                 {
                  "id":116,
@@ -1895,8 +1808,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, 3, 3]
+                        }]
                 }, 
                 {
                  "id":117,
@@ -1905,8 +1817,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 3, 3, 3]
+                        }]
                 }, 
                 {
                  "id":118,
@@ -1915,8 +1826,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 3, 3, -1]
+                        }]
                 }, 
                 {
                  "id":119,
@@ -1925,8 +1835,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[3, -1, -1, 3]
+                        }]
                 }, 
                 {
                  "id":120,
@@ -2070,8 +1979,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[2, 2, 2, -1]
+                        }]
                 }, 
                 {
                  "id":136,
@@ -2080,8 +1988,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[2, 2, -1, -1]
+                        }]
                 }, 
                 {
                  "id":137,
@@ -2090,8 +1997,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[2, 2, -1, 2]
+                        }]
                 }, 
                 {
                  "id":138,
@@ -2100,8 +2006,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, -1, 2]
+                        }]
                 }, 
                 {
                  "id":139,
@@ -2110,8 +2015,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, 2, -1]
+                        }]
                 }, 
                 {
                  "id":140,
@@ -2241,8 +2145,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }],
-                 "terrain":[1, 1, 1, 1]
+                        }]
                 }, 
                 {
                  "id":152,
@@ -2278,8 +2181,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[2, -1, 2, -1]
+                        }]
                 }, 
                 {
                  "id":156,
@@ -2297,8 +2199,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 2, -1, 2]
+                        }]
                 }, 
                 {
                  "id":158,
@@ -2307,8 +2208,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 2, -1, -1]
+                        }]
                 }, 
                 {
                  "id":159,
@@ -2317,8 +2217,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[2, -1, -1, -1]
+                        }]
                 }, 
                 {
                  "id":160,
@@ -2462,8 +2361,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[2, -1, 2, 2]
+                        }]
                 }, 
                 {
                  "id":176,
@@ -2472,8 +2370,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, -1, 2, 2]
+                        }]
                 }, 
                 {
                  "id":177,
@@ -2482,8 +2379,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 2, 2, 2]
+                        }]
                 }, 
                 {
                  "id":178,
@@ -2492,8 +2388,7 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[-1, 2, 2, -1]
+                        }]
                 }, 
                 {
                  "id":179,
@@ -2502,10 +2397,359 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
-                        }],
-                 "terrain":[2, -1, -1, 2]
+                        }]
                 }],
-         "tilewidth":32
+         "tilewidth":32,
+         "wangsets":[
+                {
+                 "colors":[
+                        {
+                         "color":"#ff0000",
+                         "name":"Nouveau Terrain",
+                         "probability":1,
+                         "tile":42
+                        }, 
+                        {
+                         "color":"#00ff00",
+                         "name":"Nouveau Terrain",
+                         "probability":1,
+                         "tile":151
+                        }, 
+                        {
+                         "color":"#0000ff",
+                         "name":"Nouveau Terrain",
+                         "probability":1,
+                         "tile":138
+                        }, 
+                        {
+                         "color":"#ff7700",
+                         "name":"Nouveau Terrain",
+                         "probability":1,
+                         "tile":43
+                        }, 
+                        {
+                         "color":"#00e9ff",
+                         "name":"Nouveau Terrain",
+                         "probability":1,
+                         "tile":87
+                        }, 
+                        {
+                         "color":"#ff00d8",
+                         "name":"Nouveau Terrain",
+                         "probability":1,
+                         "tile":92
+                        }, 
+                        {
+                         "color":"#ffff00",
+                         "name":"Nouveau Terrain",
+                         "probability":1,
+                         "tile":83
+                        }],
+                 "name":"Terrains",
+                 "tile":-1,
+                 "type":"corner",
+                 "wangtiles":[
+                        {
+                         "tileid":41,
+                         "wangid":[0, 6, 0, 6, 0, 6, 0, 6]
+                        }, 
+                        {
+                         "tileid":42,
+                         "wangid":[0, 1, 0, 1, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":43,
+                         "wangid":[0, 4, 0, 4, 0, 4, 0, 4]
+                        }, 
+                        {
+                         "tileid":60,
+                         "wangid":[0, 1, 0, 7, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":61,
+                         "wangid":[0, 1, 0, 7, 0, 7, 0, 1]
+                        }, 
+                        {
+                         "tileid":62,
+                         "wangid":[0, 1, 0, 1, 0, 7, 0, 1]
+                        }, 
+                        {
+                         "tileid":63,
+                         "wangid":[0, 7, 0, 1, 0, 7, 0, 7]
+                        }, 
+                        {
+                         "tileid":64,
+                         "wangid":[0, 7, 0, 7, 0, 1, 0, 7]
+                        }, 
+                        {
+                         "tileid":65,
+                         "wangid":[0, 5, 0, 0, 0, 5, 0, 5]
+                        }, 
+                        {
+                         "tileid":66,
+                         "wangid":[0, 5, 0, 0, 0, 0, 0, 5]
+                        }, 
+                        {
+                         "tileid":67,
+                         "wangid":[0, 5, 0, 5, 0, 0, 0, 5]
+                        }, 
+                        {
+                         "tileid":68,
+                         "wangid":[0, 0, 0, 5, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":69,
+                         "wangid":[0, 0, 0, 0, 0, 5, 0, 0]
+                        }, 
+                        {
+                         "tileid":70,
+                         "wangid":[0, 6, 0, 0, 0, 6, 0, 6]
+                        }, 
+                        {
+                         "tileid":71,
+                         "wangid":[0, 6, 0, 0, 0, 0, 0, 6]
+                        }, 
+                        {
+                         "tileid":72,
+                         "wangid":[0, 6, 0, 6, 0, 0, 0, 6]
+                        }, 
+                        {
+                         "tileid":73,
+                         "wangid":[0, 0, 0, 6, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":74,
+                         "wangid":[0, 0, 0, 0, 0, 6, 0, 0]
+                        }, 
+                        {
+                         "tileid":75,
+                         "wangid":[0, 4, 0, 0, 0, 4, 0, 4]
+                        }, 
+                        {
+                         "tileid":76,
+                         "wangid":[0, 4, 0, 0, 0, 0, 0, 4]
+                        }, 
+                        {
+                         "tileid":77,
+                         "wangid":[0, 4, 0, 4, 0, 0, 0, 4]
+                        }, 
+                        {
+                         "tileid":78,
+                         "wangid":[0, 0, 0, 4, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":79,
+                         "wangid":[0, 0, 0, 0, 0, 4, 0, 0]
+                        }, 
+                        {
+                         "tileid":80,
+                         "wangid":[0, 7, 0, 7, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":81,
+                         "wangid":[0, 7, 0, 7, 0, 7, 0, 7]
+                        }, 
+                        {
+                         "tileid":82,
+                         "wangid":[0, 1, 0, 1, 0, 7, 0, 7]
+                        }, 
+                        {
+                         "tileid":83,
+                         "wangid":[0, 1, 0, 7, 0, 7, 0, 7]
+                        }, 
+                        {
+                         "tileid":84,
+                         "wangid":[0, 7, 0, 7, 0, 7, 0, 1]
+                        }, 
+                        {
+                         "tileid":85,
+                         "wangid":[0, 0, 0, 0, 0, 5, 0, 5]
+                        }, 
+                        {
+                         "tileid":87,
+                         "wangid":[0, 5, 0, 5, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":88,
+                         "wangid":[0, 5, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":89,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 5]
+                        }, 
+                        {
+                         "tileid":90,
+                         "wangid":[0, 0, 0, 0, 0, 6, 0, 6]
+                        }, 
+                        {
+                         "tileid":92,
+                         "wangid":[0, 6, 0, 6, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":93,
+                         "wangid":[0, 6, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":94,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 6]
+                        }, 
+                        {
+                         "tileid":95,
+                         "wangid":[0, 0, 0, 0, 0, 4, 0, 4]
+                        }, 
+                        {
+                         "tileid":97,
+                         "wangid":[0, 4, 0, 4, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":98,
+                         "wangid":[0, 4, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":99,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 4]
+                        }, 
+                        {
+                         "tileid":100,
+                         "wangid":[0, 7, 0, 1, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":101,
+                         "wangid":[0, 7, 0, 1, 0, 1, 0, 7]
+                        }, 
+                        {
+                         "tileid":102,
+                         "wangid":[0, 1, 0, 1, 0, 1, 0, 7]
+                        }, 
+                        {
+                         "tileid":103,
+                         "wangid":[0, 1, 0, 7, 0, 1, 0, 7]
+                        }, 
+                        {
+                         "tileid":104,
+                         "wangid":[0, 7, 0, 1, 0, 7, 0, 1]
+                        }, 
+                        {
+                         "tileid":105,
+                         "wangid":[0, 0, 0, 5, 0, 5, 0, 5]
+                        }, 
+                        {
+                         "tileid":106,
+                         "wangid":[0, 0, 0, 5, 0, 5, 0, 0]
+                        }, 
+                        {
+                         "tileid":107,
+                         "wangid":[0, 5, 0, 5, 0, 5, 0, 0]
+                        }, 
+                        {
+                         "tileid":108,
+                         "wangid":[0, 5, 0, 0, 0, 5, 0, 0]
+                        }, 
+                        {
+                         "tileid":109,
+                         "wangid":[0, 0, 0, 5, 0, 0, 0, 5]
+                        }, 
+                        {
+                         "tileid":110,
+                         "wangid":[0, 0, 0, 6, 0, 6, 0, 6]
+                        }, 
+                        {
+                         "tileid":111,
+                         "wangid":[0, 0, 0, 6, 0, 6, 0, 0]
+                        }, 
+                        {
+                         "tileid":112,
+                         "wangid":[0, 6, 0, 6, 0, 6, 0, 0]
+                        }, 
+                        {
+                         "tileid":113,
+                         "wangid":[0, 6, 0, 0, 0, 6, 0, 0]
+                        }, 
+                        {
+                         "tileid":114,
+                         "wangid":[0, 0, 0, 6, 0, 0, 0, 6]
+                        }, 
+                        {
+                         "tileid":115,
+                         "wangid":[0, 0, 0, 4, 0, 4, 0, 4]
+                        }, 
+                        {
+                         "tileid":116,
+                         "wangid":[0, 0, 0, 4, 0, 4, 0, 0]
+                        }, 
+                        {
+                         "tileid":117,
+                         "wangid":[0, 4, 0, 4, 0, 4, 0, 0]
+                        }, 
+                        {
+                         "tileid":118,
+                         "wangid":[0, 4, 0, 0, 0, 4, 0, 0]
+                        }, 
+                        {
+                         "tileid":119,
+                         "wangid":[0, 0, 0, 4, 0, 0, 0, 4]
+                        }, 
+                        {
+                         "tileid":135,
+                         "wangid":[0, 3, 0, 0, 0, 3, 0, 3]
+                        }, 
+                        {
+                         "tileid":136,
+                         "wangid":[0, 3, 0, 0, 0, 0, 0, 3]
+                        }, 
+                        {
+                         "tileid":137,
+                         "wangid":[0, 3, 0, 3, 0, 0, 0, 3]
+                        }, 
+                        {
+                         "tileid":138,
+                         "wangid":[0, 0, 0, 3, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":139,
+                         "wangid":[0, 0, 0, 0, 0, 3, 0, 0]
+                        }, 
+                        {
+                         "tileid":151,
+                         "wangid":[0, 2, 0, 2, 0, 2, 0, 2]
+                        }, 
+                        {
+                         "tileid":155,
+                         "wangid":[0, 0, 0, 0, 0, 3, 0, 3]
+                        }, 
+                        {
+                         "tileid":157,
+                         "wangid":[0, 3, 0, 3, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":158,
+                         "wangid":[0, 3, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":159,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 3]
+                        }, 
+                        {
+                         "tileid":175,
+                         "wangid":[0, 0, 0, 3, 0, 3, 0, 3]
+                        }, 
+                        {
+                         "tileid":176,
+                         "wangid":[0, 0, 0, 3, 0, 3, 0, 0]
+                        }, 
+                        {
+                         "tileid":177,
+                         "wangid":[0, 3, 0, 3, 0, 3, 0, 0]
+                        }, 
+                        {
+                         "tileid":178,
+                         "wangid":[0, 3, 0, 0, 0, 3, 0, 0]
+                        }, 
+                        {
+                         "tileid":179,
+                         "wangid":[0, 0, 0, 3, 0, 0, 0, 3]
+                        }]
+                }]
         }, 
         {
          "columns":20,
@@ -2620,346 +2864,9 @@
          "margin":0,
          "name":"atlas_32x-super-retro",
          "spacing":0,
-         "terrains":[
-                {
-                 "name":"terre",
-                 "tile":334
-                }, 
-                {
-                 "name":"Coline",
-                 "tile":769
-                }, 
-                {
-                 "name":"Pav\u00e9",
-                 "tile":785
-                }, 
-                {
-                 "name":"Mer",
-                 "tile":1249
-                }, 
-                {
-                 "name":"mur pierre",
-                 "tile":885
-                }, 
-                {
-                 "name":"gazon",
-                 "tile":326
-                }],
          "tilecount":1536,
          "tileheight":32,
          "tiles":[
-                {
-                 "id":37,
-                 "terrain":[-1, 5, 5, 5]
-                }, 
-                {
-                 "id":38,
-                 "terrain":[5, -1, 5, 5]
-                }, 
-                {
-                 "id":45,
-                 "terrain":[-1, 0, 0, 0]
-                }, 
-                {
-                 "id":46,
-                 "terrain":[0, -1, 0, 0]
-                }, 
-                {
-                 "id":133,
-                 "terrain":[5, 5, -1, 5]
-                }, 
-                {
-                 "id":134,
-                 "terrain":[5, 5, 5, -1]
-                }, 
-                {
-                 "id":141,
-                 "terrain":[0, 0, -1, 0]
-                }, 
-                {
-                 "id":142,
-                 "terrain":[0, 0, 0, -1]
-                }, 
-                {
-                 "id":229,
-                 "terrain":[-1, -1, -1, 5]
-                }, 
-                {
-                 "id":230,
-                 "terrain":[-1, -1, 5, 5]
-                }, 
-                {
-                 "id":231,
-                 "terrain":[-1, -1, 5, -1]
-                }, 
-                {
-                 "id":237,
-                 "terrain":[-1, -1, -1, 0]
-                }, 
-                {
-                 "id":238,
-                 "terrain":[-1, -1, 0, 0]
-                }, 
-                {
-                 "id":239,
-                 "terrain":[-1, -1, 0, -1]
-                }, 
-                {
-                 "id":325,
-                 "terrain":[-1, 5, -1, 5]
-                }, 
-                {
-                 "id":326,
-                 "terrain":[5, 5, 5, 5]
-                }, 
-                {
-                 "id":327,
-                 "terrain":[5, -1, 5, -1]
-                }, 
-                {
-                 "id":333,
-                 "terrain":[-1, 0, -1, 0]
-                }, 
-                {
-                 "id":334,
-                 "terrain":[0, 0, 0, 0]
-                }, 
-                {
-                 "id":335,
-                 "terrain":[0, -1, 0, -1]
-                }, 
-                {
-                 "id":384,
-                 "terrain":[1, 1, 1, -1]
-                }, 
-                {
-                 "id":385,
-                 "terrain":[1, 1, -1, 1]
-                }, 
-                {
-                 "id":421,
-                 "terrain":[-1, 5, -1, -1]
-                }, 
-                {
-                 "id":422,
-                 "terrain":[5, 5, -1, -1]
-                }, 
-                {
-                 "id":423,
-                 "terrain":[5, -1, -1, -1]
-                }, 
-                {
-                 "id":429,
-                 "terrain":[-1, 0, -1, -1]
-                }, 
-                {
-                 "id":430,
-                 "terrain":[0, 0, -1, -1]
-                }, 
-                {
-                 "id":431,
-                 "terrain":[0, -1, -1, -1]
-                }, 
-                {
-                 "id":480,
-                 "terrain":[1, -1, 1, 1]
-                }, 
-                {
-                 "id":481,
-                 "terrain":[-1, 1, 1, 1]
-                }, 
-                {
-                 "id":496,
-                 "terrain":[-1, 2, 2, 2]
-                }, 
-                {
-                 "id":497,
-                 "terrain":[2, -1, 2, 2]
-                }, 
-                {
-                 "id":500,
-                 "terrain":[4, 4, 4, -1]
-                }, 
-                {
-                 "id":501,
-                 "terrain":[4, 4, -1, 4]
-                }, 
-                {
-                 "id":576,
-                 "terrain":[-1, -1, -1, 1]
-                }, 
-                {
-                 "id":577,
-                 "terrain":[-1, -1, 1, 1]
-                }, 
-                {
-                 "id":578,
-                 "terrain":[-1, -1, 1, -1]
-                }, 
-                {
-                 "id":592,
-                 "terrain":[2, 2, -1, 2]
-                }, 
-                {
-                 "id":593,
-                 "terrain":[2, 2, 2, -1]
-                }, 
-                {
-                 "id":596,
-                 "terrain":[4, -1, 4, 4]
-                }, 
-                {
-                 "id":597,
-                 "terrain":[-1, 4, 4, 4]
-                }, 
-                {
-                 "id":672,
-                 "terrain":[-1, 1, -1, 1]
-                }, 
-                {
-                 "id":673,
-                 "terrain":[1, 1, 1, 1]
-                }, 
-                {
-                 "id":674,
-                 "terrain":[1, -1, 1, -1]
-                }, 
-                {
-                 "id":688,
-                 "terrain":[-1, -1, -1, 2]
-                }, 
-                {
-                 "id":689,
-                 "terrain":[-1, -1, 2, 2]
-                }, 
-                {
-                 "id":690,
-                 "terrain":[-1, -1, 2, -1]
-                }, 
-                {
-                 "id":692,
-                 "terrain":[-1, -1, -1, 4]
-                }, 
-                {
-                 "id":693,
-                 "terrain":[-1, -1, 4, 4]
-                }, 
-                {
-                 "id":694,
-                 "terrain":[-1, -1, 4, -1]
-                }, 
-                {
-                 "id":768,
-                 "terrain":[-1, 1, -1, -1]
-                }, 
-                {
-                 "id":769,
-                 "terrain":[1, 1, -1, -1]
-                }, 
-                {
-                 "id":770,
-                 "terrain":[1, -1, -1, -1]
-                }, 
-                {
-                 "id":784,
-                 "terrain":[-1, 2, -1, 2]
-                }, 
-                {
-                 "id":785,
-                 "terrain":[2, 2, 2, 2]
-                }, 
-                {
-                 "id":786,
-                 "terrain":[2, -1, 2, -1]
-                }, 
-                {
-                 "id":788,
-                 "terrain":[-1, 4, -1, 4]
-                }, 
-                {
-                 "id":789,
-                 "terrain":[4, 4, 4, 4]
-                }, 
-                {
-                 "id":790,
-                 "terrain":[4, -1, 4, -1]
-                }, 
-                {
-                 "id":864,
-                 "terrain":[-1, -1, -1, 3]
-                }, 
-                {
-                 "id":865,
-                 "terrain":[-1, -1, 3, -1]
-                }, 
-                {
-                 "id":880,
-                 "terrain":[-1, 2, -1, -1]
-                }, 
-                {
-                 "id":881,
-                 "terrain":[2, 2, -1, -1]
-                }, 
-                {
-                 "id":882,
-                 "terrain":[2, -1, -1, -1]
-                }, 
-                {
-                 "id":884,
-                 "terrain":[-1, 4, -1, -1]
-                }, 
-                {
-                 "id":885,
-                 "terrain":[4, 4, -1, -1]
-                }, 
-                {
-                 "id":886,
-                 "terrain":[4, -1, -1, -1]
-                }, 
-                {
-                 "id":960,
-                 "terrain":[-1, 3, -1, -1]
-                }, 
-                {
-                 "id":961,
-                 "terrain":[3, -1, -1, -1]
-                }, 
-                {
-                 "id":1056,
-                 "terrain":[3, 3, 3, -1]
-                }, 
-                {
-                 "id":1057,
-                 "terrain":[3, 3, -1, -1]
-                }, 
-                {
-                 "id":1058,
-                 "terrain":[3, 3, -1, 3]
-                }, 
-                {
-                 "id":1152,
-                 "terrain":[3, -1, 3, -1]
-                }, 
-                {
-                 "id":1154,
-                 "terrain":[-1, 3, -1, 3]
-                }, 
-                {
-                 "id":1248,
-                 "terrain":[3, -1, 3, 3]
-                }, 
-                {
-                 "id":1249,
-                 "terrain":[-1, -1, 3, 3]
-                }, 
-                {
-                 "id":1250,
-                 "terrain":[-1, 3, 3, 3]
-                }, 
-                {
-                 "id":1346,
-                 "terrain":[3, 3, 3, 3]
-                }, 
                 {
                  "id":1487,
                  "properties":[
@@ -2969,7 +2876,363 @@
                          "value":true
                         }]
                 }],
-         "tilewidth":32
+         "tilewidth":32,
+         "wangsets":[
+                {
+                 "colors":[
+                        {
+                         "color":"#ff0000",
+                         "name":"terre",
+                         "probability":1,
+                         "tile":334
+                        }, 
+                        {
+                         "color":"#00ff00",
+                         "name":"Coline",
+                         "probability":1,
+                         "tile":769
+                        }, 
+                        {
+                         "color":"#0000ff",
+                         "name":"Pav\u00e9",
+                         "probability":1,
+                         "tile":785
+                        }, 
+                        {
+                         "color":"#ff7700",
+                         "name":"Mer",
+                         "probability":1,
+                         "tile":1249
+                        }, 
+                        {
+                         "color":"#00e9ff",
+                         "name":"mur pierre",
+                         "probability":1,
+                         "tile":885
+                        }, 
+                        {
+                         "color":"#ff00d8",
+                         "name":"gazon",
+                         "probability":1,
+                         "tile":326
+                        }],
+                 "name":"Terrains",
+                 "tile":-1,
+                 "type":"corner",
+                 "wangtiles":[
+                        {
+                         "tileid":37,
+                         "wangid":[0, 6, 0, 6, 0, 6, 0, 0]
+                        }, 
+                        {
+                         "tileid":38,
+                         "wangid":[0, 0, 0, 6, 0, 6, 0, 6]
+                        }, 
+                        {
+                         "tileid":45,
+                         "wangid":[0, 1, 0, 1, 0, 1, 0, 0]
+                        }, 
+                        {
+                         "tileid":46,
+                         "wangid":[0, 0, 0, 1, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":133,
+                         "wangid":[0, 6, 0, 6, 0, 0, 0, 6]
+                        }, 
+                        {
+                         "tileid":134,
+                         "wangid":[0, 6, 0, 0, 0, 6, 0, 6]
+                        }, 
+                        {
+                         "tileid":141,
+                         "wangid":[0, 1, 0, 1, 0, 0, 0, 1]
+                        }, 
+                        {
+                         "tileid":142,
+                         "wangid":[0, 1, 0, 0, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":229,
+                         "wangid":[0, 0, 0, 6, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":230,
+                         "wangid":[0, 0, 0, 6, 0, 6, 0, 0]
+                        }, 
+                        {
+                         "tileid":231,
+                         "wangid":[0, 0, 0, 0, 0, 6, 0, 0]
+                        }, 
+                        {
+                         "tileid":237,
+                         "wangid":[0, 0, 0, 1, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":238,
+                         "wangid":[0, 0, 0, 1, 0, 1, 0, 0]
+                        }, 
+                        {
+                         "tileid":239,
+                         "wangid":[0, 0, 0, 0, 0, 1, 0, 0]
+                        }, 
+                        {
+                         "tileid":325,
+                         "wangid":[0, 6, 0, 6, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":326,
+                         "wangid":[0, 6, 0, 6, 0, 6, 0, 6]
+                        }, 
+                        {
+                         "tileid":327,
+                         "wangid":[0, 0, 0, 0, 0, 6, 0, 6]
+                        }, 
+                        {
+                         "tileid":333,
+                         "wangid":[0, 1, 0, 1, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":334,
+                         "wangid":[0, 1, 0, 1, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":335,
+                         "wangid":[0, 0, 0, 0, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":384,
+                         "wangid":[0, 2, 0, 0, 0, 2, 0, 2]
+                        }, 
+                        {
+                         "tileid":385,
+                         "wangid":[0, 2, 0, 2, 0, 0, 0, 2]
+                        }, 
+                        {
+                         "tileid":421,
+                         "wangid":[0, 6, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":422,
+                         "wangid":[0, 6, 0, 0, 0, 0, 0, 6]
+                        }, 
+                        {
+                         "tileid":423,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 6]
+                        }, 
+                        {
+                         "tileid":429,
+                         "wangid":[0, 1, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":430,
+                         "wangid":[0, 1, 0, 0, 0, 0, 0, 1]
+                        }, 
+                        {
+                         "tileid":431,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 1]
+                        }, 
+                        {
+                         "tileid":480,
+                         "wangid":[0, 0, 0, 2, 0, 2, 0, 2]
+                        }, 
+                        {
+                         "tileid":481,
+                         "wangid":[0, 2, 0, 2, 0, 2, 0, 0]
+                        }, 
+                        {
+                         "tileid":496,
+                         "wangid":[0, 3, 0, 3, 0, 3, 0, 0]
+                        }, 
+                        {
+                         "tileid":497,
+                         "wangid":[0, 0, 0, 3, 0, 3, 0, 3]
+                        }, 
+                        {
+                         "tileid":500,
+                         "wangid":[0, 5, 0, 0, 0, 5, 0, 5]
+                        }, 
+                        {
+                         "tileid":501,
+                         "wangid":[0, 5, 0, 5, 0, 0, 0, 5]
+                        }, 
+                        {
+                         "tileid":576,
+                         "wangid":[0, 0, 0, 2, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":577,
+                         "wangid":[0, 0, 0, 2, 0, 2, 0, 0]
+                        }, 
+                        {
+                         "tileid":578,
+                         "wangid":[0, 0, 0, 0, 0, 2, 0, 0]
+                        }, 
+                        {
+                         "tileid":592,
+                         "wangid":[0, 3, 0, 3, 0, 0, 0, 3]
+                        }, 
+                        {
+                         "tileid":593,
+                         "wangid":[0, 3, 0, 0, 0, 3, 0, 3]
+                        }, 
+                        {
+                         "tileid":596,
+                         "wangid":[0, 0, 0, 5, 0, 5, 0, 5]
+                        }, 
+                        {
+                         "tileid":597,
+                         "wangid":[0, 5, 0, 5, 0, 5, 0, 0]
+                        }, 
+                        {
+                         "tileid":672,
+                         "wangid":[0, 2, 0, 2, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":673,
+                         "wangid":[0, 2, 0, 2, 0, 2, 0, 2]
+                        }, 
+                        {
+                         "tileid":674,
+                         "wangid":[0, 0, 0, 0, 0, 2, 0, 2]
+                        }, 
+                        {
+                         "tileid":688,
+                         "wangid":[0, 0, 0, 3, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":689,
+                         "wangid":[0, 0, 0, 3, 0, 3, 0, 0]
+                        }, 
+                        {
+                         "tileid":690,
+                         "wangid":[0, 0, 0, 0, 0, 3, 0, 0]
+                        }, 
+                        {
+                         "tileid":692,
+                         "wangid":[0, 0, 0, 5, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":693,
+                         "wangid":[0, 0, 0, 5, 0, 5, 0, 0]
+                        }, 
+                        {
+                         "tileid":694,
+                         "wangid":[0, 0, 0, 0, 0, 5, 0, 0]
+                        }, 
+                        {
+                         "tileid":768,
+                         "wangid":[0, 2, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":769,
+                         "wangid":[0, 2, 0, 0, 0, 0, 0, 2]
+                        }, 
+                        {
+                         "tileid":770,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 2]
+                        }, 
+                        {
+                         "tileid":784,
+                         "wangid":[0, 3, 0, 3, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":785,
+                         "wangid":[0, 3, 0, 3, 0, 3, 0, 3]
+                        }, 
+                        {
+                         "tileid":786,
+                         "wangid":[0, 0, 0, 0, 0, 3, 0, 3]
+                        }, 
+                        {
+                         "tileid":788,
+                         "wangid":[0, 5, 0, 5, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":789,
+                         "wangid":[0, 5, 0, 5, 0, 5, 0, 5]
+                        }, 
+                        {
+                         "tileid":790,
+                         "wangid":[0, 0, 0, 0, 0, 5, 0, 5]
+                        }, 
+                        {
+                         "tileid":864,
+                         "wangid":[0, 0, 0, 4, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":865,
+                         "wangid":[0, 0, 0, 0, 0, 4, 0, 0]
+                        }, 
+                        {
+                         "tileid":880,
+                         "wangid":[0, 3, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":881,
+                         "wangid":[0, 3, 0, 0, 0, 0, 0, 3]
+                        }, 
+                        {
+                         "tileid":882,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 3]
+                        }, 
+                        {
+                         "tileid":884,
+                         "wangid":[0, 5, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":885,
+                         "wangid":[0, 5, 0, 0, 0, 0, 0, 5]
+                        }, 
+                        {
+                         "tileid":886,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 5]
+                        }, 
+                        {
+                         "tileid":960,
+                         "wangid":[0, 4, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":961,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 4]
+                        }, 
+                        {
+                         "tileid":1056,
+                         "wangid":[0, 4, 0, 0, 0, 4, 0, 4]
+                        }, 
+                        {
+                         "tileid":1057,
+                         "wangid":[0, 4, 0, 0, 0, 0, 0, 4]
+                        }, 
+                        {
+                         "tileid":1058,
+                         "wangid":[0, 4, 0, 4, 0, 0, 0, 4]
+                        }, 
+                        {
+                         "tileid":1152,
+                         "wangid":[0, 0, 0, 0, 0, 4, 0, 4]
+                        }, 
+                        {
+                         "tileid":1154,
+                         "wangid":[0, 4, 0, 4, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":1248,
+                         "wangid":[0, 0, 0, 4, 0, 4, 0, 4]
+                        }, 
+                        {
+                         "tileid":1249,
+                         "wangid":[0, 0, 0, 4, 0, 4, 0, 0]
+                        }, 
+                        {
+                         "tileid":1250,
+                         "wangid":[0, 4, 0, 4, 0, 4, 0, 0]
+                        }, 
+                        {
+                         "tileid":1346,
+                         "wangid":[0, 4, 0, 4, 0, 4, 0, 4]
+                        }]
+                }]
         }, 
         {
          "columns":48,
@@ -2996,6 +3259,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":1.5,
  "width":100
 }
