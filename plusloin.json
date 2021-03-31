@@ -78,7 +78,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"part1-3xsel"
+                 "value":"part2-3xsel"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -217,6 +217,12 @@
          "id":4,
          "name":"override",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"depth",
+                 "type":"int",
+                 "value":3
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":70,
