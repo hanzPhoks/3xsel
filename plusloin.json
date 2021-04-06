@@ -78,7 +78,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"part1-3xsel"
+                 "value":"part2-3xsel"
                 }],
          "type":"tilelayer",
          "visible":true,
