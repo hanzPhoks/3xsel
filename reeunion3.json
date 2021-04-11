@@ -1838,99 +1838,7 @@
                          "value":true
                         }]
                 }],
-         "tilewidth":32,
-         "wangsets":[
-                {
-                 "colors":[
-                        {
-                         "color":"#ff0000",
-                         "name":"Nouveau Terrain",
-                         "probability":1,
-                         "tile":209
-                        }, 
-                        {
-                         "color":"#00ff00",
-                         "name":"Nouveau Terrain",
-                         "probability":1,
-                         "tile":253
-                        }],
-                 "name":"Terrains",
-                 "tile":-1,
-                 "type":"corner",
-                 "wangtiles":[
-                        {
-                         "tileid":160,
-                         "wangid":[0, 0, 0, 1, 0, 0, 0, 0]
-                        }, 
-                        {
-                         "tileid":161,
-                         "wangid":[0, 0, 0, 1, 0, 1, 0, 0]
-                        }, 
-                        {
-                         "tileid":162,
-                         "wangid":[0, 0, 0, 0, 0, 1, 0, 0]
-                        }, 
-                        {
-                         "tileid":204,
-                         "wangid":[0, 0, 0, 2, 0, 0, 0, 0]
-                        }, 
-                        {
-                         "tileid":205,
-                         "wangid":[0, 0, 0, 2, 0, 2, 0, 0]
-                        }, 
-                        {
-                         "tileid":206,
-                         "wangid":[0, 0, 0, 0, 0, 2, 0, 0]
-                        }, 
-                        {
-                         "tileid":208,
-                         "wangid":[0, 1, 0, 1, 0, 0, 0, 0]
-                        }, 
-                        {
-                         "tileid":209,
-                         "wangid":[0, 1, 0, 1, 0, 1, 0, 1]
-                        }, 
-                        {
-                         "tileid":210,
-                         "wangid":[0, 0, 0, 0, 0, 1, 0, 1]
-                        }, 
-                        {
-                         "tileid":252,
-                         "wangid":[0, 2, 0, 2, 0, 0, 0, 0]
-                        }, 
-                        {
-                         "tileid":253,
-                         "wangid":[0, 2, 0, 2, 0, 2, 0, 2]
-                        }, 
-                        {
-                         "tileid":254,
-                         "wangid":[0, 0, 0, 0, 0, 2, 0, 2]
-                        }, 
-                        {
-                         "tileid":256,
-                         "wangid":[0, 1, 0, 0, 0, 0, 0, 0]
-                        }, 
-                        {
-                         "tileid":257,
-                         "wangid":[0, 1, 0, 0, 0, 0, 0, 1]
-                        }, 
-                        {
-                         "tileid":258,
-                         "wangid":[0, 0, 0, 0, 0, 0, 0, 1]
-                        }, 
-                        {
-                         "tileid":300,
-                         "wangid":[0, 2, 0, 0, 0, 0, 0, 0]
-                        }, 
-                        {
-                         "tileid":301,
-                         "wangid":[0, 2, 0, 0, 0, 0, 0, 2]
-                        }, 
-                        {
-                         "tileid":302,
-                         "wangid":[0, 0, 0, 0, 0, 0, 0, 2]
-                        }]
-                }]
+         "tilewidth":32
         }, 
         {
          "columns":30,
@@ -1944,10 +1852,6 @@
          "tilecount":300,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "firstgid":1069,
-         "source":"tsx tilesets\/atlas_32x-super-retro.tsx"
         }],
  "tilewidth":32,
  "type":"map",
