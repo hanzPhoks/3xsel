@@ -185,7 +185,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"@\/sel\/3xsel\/detente.json"
+                 "value":".\/@\/sel\/3xsel\/detente.json"
                 }],
          "type":"tilelayer",
          "visible":true,
