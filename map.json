@@ -149,7 +149,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/reeunion.json#right"
+                 "value":"https:\/\/play.workadventu.re\/@\/sel\/3xsel\/reeunion.json#right"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -167,7 +167,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/plusloin.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/sel\/3xsel\/plusloin.json"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -185,7 +185,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/@\/sel\/3xsel\/detente.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/sel\/3xsel\/detente.json"
                 }],
          "type":"tilelayer",
          "visible":true,
