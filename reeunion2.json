@@ -72,7 +72,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/reeunion.json#left"
+                 "value":"https:\/\/play.workadventu.re\/@\/sel\/3xsel\/reeunion.json#left"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -90,7 +90,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/reeunion2-2e.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/sel\/3xsel\/reeunion2-2e.json"
                 }],
          "type":"tilelayer",
          "visible":true,

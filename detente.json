@@ -120,7 +120,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":".\/map.json#top"
+                 "value":"https:\/\/play.workadventu.re\/@\/sel\/3xsel\/map.json#top"
                 }],
          "type":"tilelayer",
          "visible":true,
